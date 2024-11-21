@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import location from '../../img/location.svg'
-import calender from '../../img/calender.svg'
+import location from '../../img/location.png'
+import calender from '../../img/calender.png'
 import titan from '../../img/titan.png'
 import wheeslon from '../../img/wheelsonlogo.jpeg'
 import './Work.css'
