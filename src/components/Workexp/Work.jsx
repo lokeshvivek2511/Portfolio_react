@@ -32,8 +32,8 @@ const Work = () => {
                 <div className="w-name">Wheels On Technologies</div>
                 <div className="w-role">Intern</div>
                 <div className="w-info">
-                    <span><img src={calender}/>July 2024</span>
-                    <span><img src={location}/>Nehru Nagar, Coimbatore</span>
+                    <span><img src={calender} alt=""/>July 2024</span>
+                    <span><img src={location} alt=""/>Nehru Nagar, Coimbatore</span>
                 </div>
                 <div className="w-details" >
                     <li style={{ color: darkMode ? "white" : "" }}>Developed a web-based Supplier Price Calculator to estimate
@@ -59,8 +59,8 @@ const Work = () => {
             <div className="w-name">Titan Company ltd</div>
                 <div className="w-role">Intern</div>
                 <div className="w-info">
-                    <span><img src={calender}/>Nov 2024</span>
-                    <span><img src={location}/>Electronic city, Bengaluru</span>
+                    <span><img src={calender} alt=""/>Nov 2024</span>
+                    <span><img src={location} alt=""/>Electronic city, Bengaluru</span>
                 </div>
                 <div className="w-details">
                     <li style={{ color: darkMode ? "white" : "" }}>Designed and developed a Timesheet Management Application using React and modern front-end tools.</li>
