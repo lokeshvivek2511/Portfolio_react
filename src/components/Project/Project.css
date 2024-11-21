@@ -1,0 +1,182 @@
+.project {
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    /* height: 90vh; */
+    margin-top: 4rem;
+    position: relative;
+}
+
+.p-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    position: relative;
+}
+
+.p-card {
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: start;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: 0px 0px 5px rgba(251, 161, 40, 0.42);
+    border-radius: 20px;
+    padding: 1.5rem 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+}
+
+.p-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 15px rgba(251, 161, 40, 0.6);
+}
+.p-card-top{
+    display: flex;
+    gap: 1rem;
+}
+
+.p-info {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.p-info > span {
+    color: #739df0;
+    font-size: 16px;
+    margin-right: 1rem;
+}
+
+.p-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.p-details > li {
+    color: var(--gray);
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    text-align: justify;
+    position: relative;
+    padding-left: 1.2rem;
+}
+
+.p-details > li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--orange);
+}
+
+.p-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.p-role {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--orange);
+    margin: 0.3rem 0;
+}
+
+.p-right {
+    flex: 1;
+    position: relative;
+}
+
+.p-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.p-logo > img {
+    height: 5rem;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+
+}
+
+.p-logo > img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.p-card-top span img{
+    height: 110px;
+    width: 170px;
+}
+
+@media screen and (max-width: 1200px) {
+    .project *{
+        font-size: 100%;
+    }
+    .p-card img{
+        height: 80px;
+    }
+    .p-card {
+        width: 70%;
+    }
+    
+    .p-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project {
+        padding: 0 1rem;
+        margin-top: 2rem;
+    }
+
+    .p-card {
+        padding: 1rem;
+    }
+
+    .p-name {
+        font-size: 1.5rem;
+    }
+
+    .p-role {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
+    .p-card{
+        width: 70vw;
+    }
+    .p-name{
+        font-size: 0.9rem;
+    }
+    .p-details li{
+        font-size: 0.8rem;
+    }
+    .p-info span{
+        font-size: 0.7rem;
+    }
+    .p-role{
+        font-size: 0.8rem;
+    }
+    .p-card-top span img{
+        float: left;
+    }
+    .p-card button{
+        height: 2rem;
+    }
+}
