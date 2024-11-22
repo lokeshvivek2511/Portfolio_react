@@ -78,3 +78,9 @@
   }
   
 }
+
+@media screen and (max-width: 350px){
+  .cards>:nth-child(2)>*{
+    width: 78%;
+  }
+}

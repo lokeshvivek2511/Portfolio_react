@@ -55,3 +55,14 @@ textarea{
     }
 
 }   
+@media screen and (max-width: 350px) {
+    textarea{
+        height: 3rem!important;
+        max-width: 80%;
+        }
+    .user{
+        max-width: 80%;
+
+    }
+
+}   

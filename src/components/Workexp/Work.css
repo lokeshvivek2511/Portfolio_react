@@ -106,12 +106,14 @@
     .w-left {
       display: flex;
       flex-direction: column;
+      /* width: 100%; */
       /* gap: 17rem; */
     }
     .w-left>:nth-child(2){
         margin-top: 1rem;
-       width: 70vw;
-       align-self: center;
+       /* width:75vw; */
+
+       
        
     }
     /* .w-left>*{
@@ -160,11 +162,15 @@
         margin-right:1rem;
         margin-top: 1rem;
        width: 70vw;
-       align-self: center;
+       /* align-self: center; */
        
     }
     .w-right .w-card{
         right: -3rem;
+        margin-top: 3rem;
+    }
+    .w-left .w-card{
+        right: -1rem;
     }
     
     .w-logo{
@@ -173,19 +179,19 @@
 
   }
 
-  @media screen and (max-width: 386px) {
+  @media screen and (max-width: 350px) {
 
     .work .awesome{
-        margin-bottom: 7rem;
-        /* background-color: red; */
+        margin-bottom: 7rem
     }
     #mela{
         margin-top: 3rem;
-        /* margin-bottom: 1rem; */
+        left: -0.9rem;
     }
     #kela{
-        margin-top: 8rem;
-        margin-right: -0.2rem;
+        margin-top: 10rem;
+        margin-right: -0.3rem;
+        margin-bottom: 1rem;
     }
     .i-name>:nth-child(2){
         font-size: 2rem;

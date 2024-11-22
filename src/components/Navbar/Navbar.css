@@ -47,4 +47,12 @@
   .n-list {
     display: none;
   }
+  .n-wrapper *{
+    font-size: 1rem;
+  }
+  .n-wrapper button{
+    font-size: 0.6rem;
+    width: 4rem;
+    padding: auto;
+  }
 }

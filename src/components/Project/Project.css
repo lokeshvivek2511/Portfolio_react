@@ -173,10 +173,29 @@
     .p-role{
         font-size: 0.8rem;
     }
-    .p-card-top span img{
+    .p-card-top span{
         float: left;
+        height: 5px;
+        width: 55%;
+    }
+    .p-card-top span img{
+        width: 100%;
+        height: 60px;
     }
     .p-card button{
-        height: 2rem;
+        height: 1.8rem;
+        width: 5rem;
+    }
+  
+}
+
+@media screen and (max-width: 350px) {
+    .project{
+        position: relative;
+        top: 4rem;
+    }
+    .p-card{
+        position: relative;
+        right: 0.8rem;
     }
 }

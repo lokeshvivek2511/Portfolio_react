@@ -36,9 +36,7 @@ const Project = () => {
             <div className="right">
                 <div className="p-name" style={{ color: darkMode ? "white" : "" }}>GPT Clone</div>
                 <div className="p-role">React • Gemini Api</div>
-                <div className="p-info">
-                <span>2023 - Present</span>
-          </div>
+                
             </div>
             </div>
           <ul className="p-details" >
@@ -58,9 +56,7 @@ const Project = () => {
             <div className="right">
                 <div className="p-name" style={{ color: darkMode ? "white" : "" }}>Portfolio</div>
                 <div className="p-role">React • Framer motion</div>
-                <div className="p-info">
-                <span>2023 - Present</span>
-          </div>
+                
             </div>
             </div>
           <ul className="p-details">
@@ -83,9 +79,7 @@ const Project = () => {
             <div className="right">
                 <div className="p-name" style={{ color: darkMode ? "white" : "" }}>Timesheet Management</div>
                 <div className="p-role">React • Node.js • MongoDB</div>
-                <div className="p-info">
-                <span>2023 - Present</span>
-          </div>
+                
             </div>
             </div>
           <ul className="p-details" >
@@ -105,9 +99,7 @@ const Project = () => {
             <div className="right">
                 <div className="p-name" style={{ color: darkMode ? "white" : "" }}>SupplierPrice calc</div>
                 <div className="p-role">Html • Css • Node.js • MongoDB</div>
-                <div className="p-info">
-                <span>2023 - Present</span>
-          </div>
+                
             </div>
             </div>
           <ul className="p-details">
