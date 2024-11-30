@@ -191,6 +191,7 @@
 
 @media screen and (max-width: 350px) {
     .project{
+        margin-top: 5rem;
         position: relative;
         top: 4rem;
     }

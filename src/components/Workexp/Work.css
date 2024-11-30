@@ -179,7 +179,7 @@
 
   }
 
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 370px) {
 
     .work .awesome{
         margin-bottom: 7rem
@@ -189,9 +189,9 @@
         left: -0.9rem;
     }
     #kela{
-        margin-top: 15rem;
-        margin-right: -0.3rem;
-        margin-bottom: 4rem;
+        margin-top: 18rem;
+        margin-right: -0.4rem;
+        margin-bottom: 5rem;
     }
     .i-name>:nth-child(2){
         font-size: 2rem;
