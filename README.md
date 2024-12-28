@@ -119,28 +119,27 @@ Access the live version of the portfolio here: [Portfolio Website](https://lokes
 ## Light mode
 ### Home Page
 ![image](https://github.com/user-attachments/assets/dff31703-74cf-4a48-8844-ea45bd16898e)
-) 
+
 
 ### Projects Section
-![Projects Section](![image](https://github.com/user-attachments/assets/4e972c34-c788-456b-ba76-5b0161f372c6)
-)
+![image](https://github.com/user-attachments/assets/4e972c34-c788-456b-ba76-5b0161f372c6)
+
 
 ### Skill Section
-![Skill Section](![image](https://github.com/user-attachments/assets/03f4d629-4751-4139-a1a5-eff44dffa0cd)
-) 
+![image](https://github.com/user-attachments/assets/03f4d629-4751-4139-a1a5-eff44dffa0cd)
+
 
 ## Dark mode
 ### Home Page
-![Home Page](![image](https://github.com/user-attachments/assets/742a79ce-55ee-4225-b97b-19f3c79f05c0)
-) 
+![image](https://github.com/user-attachments/assets/742a79ce-55ee-4225-b97b-19f3c79f05c0)
+
 
 ### Experience Section
-![Experience Section](![image](https://github.com/user-attachments/assets/d78f7947-131a-4220-a895-e68d73542477)
-)
+![image](https://github.com/user-attachments/assets/d78f7947-131a-4220-a895-e68d73542477)
 
 ### Contact Section
-![Contact Section](![image](https://github.com/user-attachments/assets/6cf1dbd0-d3bb-41b3-bd11-5814319b621a)
-) 
+![image](https://github.com/user-attachments/assets/6cf1dbd0-d3bb-41b3-bd11-5814319b621a)
+
 
 ## License
 
