@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website built using React and Vite. It showcases my skills, projects, and experience as a developer.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Webpage Link](#webpage-link)
+- [Screenshots](#screenshots)
+- [License](#license)
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Responsive design
+- Smooth navigation
+- Dynamic project showcase
+- Contact form integration
+- Themed components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `yarn test`
+- React
+- Vite
+- CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Directory Structure
 
-### `yarn build`
+```
+└── lokeshvivek2511-Portfolio_react/
+    ├── public/
+    │   ├── index.html
+    │   ├── fonts/
+    │   │   └── Gumela Regular.otf
+    │   └── robots.txt
+    ├── package.json
+    ├── README.md
+    └── src/
+        ├── Context.js
+        ├── fonts/
+        │   └── Gumela Regular.otf
+        ├── components/
+        │   ├── Contact/
+        │   │   ├── Contact.jsx
+        │   │   └── Contact.css
+        │   ├── Services/
+        │   │   ├── Services.css
+        │   │   └── Services.jsx
+        │   ├── Navbar/
+        │   │   ├── Navbar.css
+        │   │   └── Navbar.jsx
+        │   ├── Card/
+        │   │   ├── Card.jsx
+        │   │   └── Card.css
+        │   ├── Intro/
+        │   │   ├── Intro.jsx
+        │   │   └── Intro.css
+        │   ├── Project/
+        │   │   ├── Project.jsx
+        │   │   └── Project.css
+        │   ├── Workexp/
+        │   │   ├── Work.jsx
+        │   │   └── Work.css
+        │   ├── FloatingDiv/
+        │   │   ├── FloatingDiv.jsx
+        │   │   └── FloatingDiv.css
+        │   ├── Footer/
+        │   │   ├── Footer.jsx
+        │   │   └── Footer.css
+        │   └── Toggle/
+        │       ├── Toggle.css
+        │       └── Toggle.jsx
+        ├── App.js
+        ├── img/
+        ├── App.css
+        └── index.js
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/lokeshvivek2511/Portfolio_react.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd lokeshvivek2511-Portfolio_react
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `yarn eject`
+Start the development server:
+```bash
+npm run dev
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Build for production:
+```bash
+npm run build
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Preview the production build:
+```bash
+npm run preview
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Webpage Link
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Access the live version of the portfolio here: [Portfolio Website](https://lokeshwaran-portfolio.netlify.app/)
 
-## Learn More
+## Screenshots
+## Light mode
+### Home Page
+![Home Page](![image](https://github.com/user-attachments/assets/dff31703-74cf-4a48-8844-ea45bd16898e)
+) 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Projects Section
+![Projects Section](![image](https://github.com/user-attachments/assets/4e972c34-c788-456b-ba76-5b0161f372c6)
+)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Skill Section
+![Skill Section](![image](https://github.com/user-attachments/assets/03f4d629-4751-4139-a1a5-eff44dffa0cd)
+) 
 
-### Code Splitting
+## Dark mode
+### Home Page
+![Home Page](![image](https://github.com/user-attachments/assets/742a79ce-55ee-4225-b97b-19f3c79f05c0)
+) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Experience Section
+![Experience Section](![image](https://github.com/user-attachments/assets/d78f7947-131a-4220-a895-e68d73542477)
+)
 
-### Analyzing the Bundle Size
+### Contact Section
+![Contact Section](![image](https://github.com/user-attachments/assets/6cf1dbd0-d3bb-41b3-bd11-5814319b621a)
+) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
