@@ -118,7 +118,7 @@ Access the live version of the portfolio here: [Portfolio Website](https://lokes
 ## Screenshots
 ## Light mode
 ### Home Page
-![Home Page](![image](https://github.com/user-attachments/assets/dff31703-74cf-4a48-8844-ea45bd16898e)
+![image](https://github.com/user-attachments/assets/dff31703-74cf-4a48-8844-ea45bd16898e)
 ) 
 
 ### Projects Section
